@@ -1,0 +1,55 @@
+body{width: 960px;
+margin: auto;
+}
+.img{
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+img{
+width: 100%;
+
+}
+.article{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+header img {width: auto;}
+header{
+display: grid;
+grid-template-columns: 200px auto;
+
+
+}
+nav{ display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+
+
+
+}
+header a {text-decoration: none;}
+header nav a:hover{color: rgb(211, 46, 82);} 
+.headimg{
+margin-top: 30px;
+
+}
+.hoover{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 30px;
+}
+  .hoover:hover{
+ color: rgb(121, 62, 27);
+ background-color: rgb(112, 252, 233);
+
+} 
